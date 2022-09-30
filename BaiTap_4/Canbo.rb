@@ -9,26 +9,26 @@ class Canbo
 
     def enter_infomation
         print "Nhập tên : "
-        @name = gets.chomp
+        @name_123 = gets.chomp
         print "Nhập tuổi : "
-        @age = gets.to_i
+        @age_123 = gets.to_i
         print "Nhập giới tính 1(nam) 0(nữ) 2(khác) : "
-        @gender = gets.to_i
+        @gender_123 = gets.to_i
         print "Nhập địa chỉ : "
-        @address = gets.chomp
+        @address_123 = gets.chomp
     end
 
     def info    
-        puts "Tên : #{@name}"
-        puts "Tuối : #{@age}"
-        if @gender == 1 
+        puts "Tên : #{@name_123}"
+        puts "Tuối : #{@age_123}"
+        if @gender_123 == 1 
             puts'Giới tính : Nam'
-        elsif @gender == 0
+        elsif @gender_123 == 0
             puts 'Giới Tính : Nữ'
         else 
             puts 'Giới Tính : Khác'
         end
-        puts "Địa chỉ : #{@address}"
+        puts "Địa chỉ : #{@address_123}"
     end
     attr_accessor :name, :age, :gender, :address
 end 
