@@ -1,7 +1,5 @@
 require_relative 'man.rb'
 
-
-
 class Student < Human
   attr_accessor :grade1, :grade2, :grade3
   def initialize(grade1, grade2, grade3,name, hair, weight, height, age, phone, email, nation)
